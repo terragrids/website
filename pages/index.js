@@ -1,18 +1,12 @@
 import Head from 'next/head'
+import Layout, { siteTitle } from './components/layout'
 
 export default function Home() {
   return (
-    <div className="container">
+    <Layout home>
       <Head>
-        <title>Terragrids</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>{siteTitle}</title>
       </Head>
-
-      <main>
-        <h1>
-          Welcome to terragrids
-        </h1>
-      </main>
-    </div>
+    </Layout>
   )
 }
