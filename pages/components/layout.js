@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from './layout.module.scss'
-import logo from '../../public/images/logo+name.svg'
+import logo from '../../public/images/logo.png'
 import Image from 'next/image'
 
 export const siteTitle = 'Terragrids'
@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
                         priority
                         src={logo}
                         height={80}
-                        width={250}
+                        width={70}
                         alt={siteTitle} />
                 </nav>
                 <main>{children}</main>
