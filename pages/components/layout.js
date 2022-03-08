@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from './layout.module.scss'
-import logo from '../../public/images/logo.png'
-import Image from 'next/image'
+import Logo from '../../public/images/logo+name.svg'
 
 export const siteTitle = 'Terragrids'
 
@@ -21,12 +20,7 @@ export default function Layout({ children, home }) {
             </Head>
             <div className={styles.container}>
                 <nav className={styles.navbar}>
-                    <Image
-                        priority
-                        src={logo}
-                        height={80}
-                        width={70}
-                        alt={siteTitle} />
+                    <Logo width={200} />
                 </nav>
                 <main>{children}</main>
             </div>
