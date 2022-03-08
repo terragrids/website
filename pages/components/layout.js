@@ -4,7 +4,7 @@ import Logo from '../../public/images/logo+name.svg'
 
 export const siteTitle = 'Terragrids'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
     return (
         <>
             <Head>
