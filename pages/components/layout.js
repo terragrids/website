@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import styles from './layout.module.scss'
 import Logo from '../../public/images/logo+name.svg'
-
-export const siteTitle = 'Terragrids'
+import { strings } from '../../strings/en'
 
 export default function Layout({ children }) {
     return (
@@ -11,19 +10,17 @@ export default function Layout({ children }) {
                 <link rel="icon" href="/favicon.ico" />
                 <meta
                     name="description"
-                    content={siteTitle} />
+                    content={`${strings.splashTitle}. ${strings.splashDescription}`} />
+                <meta name="og:title" content={strings.siteTitle} />
                 <meta
                     property="og:image"
                     content={''} />
-                <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            <div className={styles.container}>
-                <nav className={styles.navbar}>
-                    <Logo width={200} />
-                </nav>
-                <main>{children}</main>
-            </div>
+            <nav className={styles.navbar}>
+                <Logo width={240} />
+            </nav>
+            <main>{children}</main>
         </>
     )
 }

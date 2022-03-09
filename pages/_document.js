@@ -4,7 +4,7 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&family=Orbitron&display=optional" rel="stylesheet" />
             </Head>
             <body>
                 <Main />

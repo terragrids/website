@@ -1,3 +1,5 @@
+@import 'colors.scss';
+
 html,
 body {
     padding: 0;
@@ -5,10 +7,14 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     line-height: 1.6;
     font-size: 18px;
+    background-color: $color-ebony-clay;
+    color: $color-alto;
 }
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 a {

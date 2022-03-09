@@ -1,12 +1,15 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from './components/layout'
+import { strings } from '../strings/en'
+import Splash from './components/splash'
+import Layout from './components/layout'
 
 export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{strings.siteTitle}</title>
       </Head>
+      <Splash />
     </Layout>
   )
 }

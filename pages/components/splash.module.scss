@@ -1,0 +1,42 @@
+@import 'styles/colors.scss';
+@import 'styles/screens.scss';
+
+.splash {
+    position: relative;
+    background-color: $color-ebony-clay;
+    height: 400px;
+
+    @media (max-width: $screen-small) {
+        height: 460px;
+    }
+}
+
+.splashText {
+    position: absolute;
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+
+    h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 50px;
+
+        @media (max-width: $screen-small) {
+            font-size: 40px;
+        }
+
+        @media (max-width: $screen-xsmall) {
+            font-size: 30px;
+        }
+    }
+
+    h2 {
+        padding: 20px 0;
+        font-size: 40px;
+        color: $color-brand;
+
+        @media (max-width: $screen-small) {
+            font-size: 30px;
+        }
+    }
+}
