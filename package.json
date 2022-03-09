@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
     "next": "latest",
@@ -14,8 +15,11 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
+    "jest": "^27.5.1",
     "sass": "^1.49.9"
   }
 }
