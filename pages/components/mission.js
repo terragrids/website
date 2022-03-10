@@ -1,12 +1,11 @@
 import { strings } from '../../strings/en'
 import Section from './section'
-import styles from './mission.module.scss'
 
 export default function Mission() {
     return (
-        <Section classNames={[styles.container]}>
+        <Section>
             <h2>{strings.mission}</h2>
-            <div>{strings.whatIsTerragrids}</div>
+            <p>{strings.whatIsTerragrids1}</p>
         </Section>
     )
 }

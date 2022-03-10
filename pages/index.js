@@ -3,6 +3,7 @@ import { strings } from '../strings/en'
 import Splash from './components/splash'
 import Layout from './components/layout'
 import Mission from './components/mission'
+import Strategy from './components/strategy'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Splash />
       <Mission />
+      <Strategy />
     </Layout>
   )
 }
