@@ -5,7 +5,7 @@ import styles from './splash.module.scss'
 
 export default function Splash() {
     return (
-        <div className={styles.splash}>
+        <div className={styles.container}>
             <Image
                 priority
                 src="/images/splash.jpg"
@@ -14,7 +14,7 @@ export default function Splash() {
                 objectFit={'cover'}
                 objectPosition={'center 20%'}
                 alt={'splash image'} />
-            <div className={styles.splashText}>
+            <div className={styles.text}>
                 <h1><ParagraphMaker text={strings.splashTitle} /></h1>
                 <h2>{strings.splashDescription}</h2>
             </div>

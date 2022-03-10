@@ -1,7 +1,7 @@
 @import 'styles/colors.scss';
 @import 'styles/screens.scss';
 
-.splash {
+.container {
     position: relative;
     background-color: $color-ebony-clay;
     height: 400px;
@@ -11,7 +11,7 @@
     }
 }
 
-.splashText {
+.text {
     position: absolute;
     width: 100%;
     padding: 40px 20px;
@@ -33,7 +33,7 @@
     h2 {
         padding: 20px 0;
         font-size: 40px;
-        color: $color-brand;
+        color: $color-downy;
 
         @media (max-width: $screen-small) {
             font-size: 30px;

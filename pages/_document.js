@@ -6,7 +6,7 @@ class TerraDocument extends Document {
             <Html>
                 <Head>
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&family=Orbitron&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Saira&family=Orbitron&display=swap"
                         rel="stylesheet" />
                 </Head>
                 <body>
