@@ -1,0 +1,21 @@
+@import 'styles/colors.scss';
+@import 'styles/screens.scss';
+
+.container {
+    background-color: $color-black;
+    padding: 50px 0 30px;
+
+    .poweredBy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .algorand {
+        position: relative;
+        width: 130px;
+        height: 40px;
+        margin-left: 10px;
+    }
+}

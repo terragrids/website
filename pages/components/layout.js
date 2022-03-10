@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.scss'
 import Logo from '../../public/images/logo+name.svg'
 import { strings } from '../../strings/en'
+import Footer from './footer'
 
 export default function Layout({ children }) {
     return (
@@ -21,6 +22,7 @@ export default function Layout({ children }) {
                 <Logo width={240} />
             </nav>
             <main>{children}</main>
+            <Footer />
         </>
     )
 }

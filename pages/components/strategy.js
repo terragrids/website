@@ -9,8 +9,9 @@ export default function Strategy() {
             <p>{strings.whatIsTerragrids2}</p>
             <p>{strings.whatIsTerragrids3}</p>
             <TextLink
-                text={'View and contribute to the whitepaper →'}
+                text={`${strings.contributeToWhitePaper} →`}
                 targetUrl={'https://docs.google.com/document/d/1OwmZQygSRglX0yo-dP-2Rm6QtfDTLabX6lHK24c4CR4/edit?usp=sharing'} />
+            <p />
         </Section>
     )
 }
