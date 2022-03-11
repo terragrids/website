@@ -1,0 +1,11 @@
+@import 'styles/colors.scss';
+
+.container {
+    background-color: $color-nomad;
+    color: $color-heavy-metal;
+
+    h2,
+    a {
+        color: $color-brand;
+    }
+}

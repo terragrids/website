@@ -9,5 +9,8 @@ export const strings = {
     whatIsTerragrids3: 'Anyone can become a Terragrids citizen. You just need an Algorand Wallet and a passion for sustainability and decentralisation. Terragrids citizens can own, explore, use and trade their tokens to help govern and expand a virtual electricity grid that power towns and villages in the greenverse; most importantly, they help build and expand a real electricity generation grid, which will reduce fuel poverty, help meet global carbon reduction targets, and ensure a better future for the planet.',
     contributeToWhitePaper: 'View and contribute to the whitepaper',
     poweredBy: 'Powered by',
-    carbonNegativeBlockchain: 'carbon negative blockchain'
+    carbonNegativeBlockchain: 'carbon negative blockchain',
+    decentralized: 'Decentralized',
+    decentralizedContent: 'Terragrids is decentralized from inception. The whitepaper is a collaborative document where anyone can comment and propose new ideas. The website and the DApp are entirely open source, so that any developers across the globe can contribute to making Terragrids a better platform. Terragrids citizens can acquire DAO governance rights, and they can participate, discuss and vote in internal decisions, although voting is used only as a last resort. Discussion within the DAO governing body should always aim towards building a consensus.',
+    buildOnGithub: 'Build Terragrids on Github'
 }

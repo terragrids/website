@@ -1,0 +1,11 @@
+@import 'styles/colors.scss';
+
+.container {
+    background-color: $color-ebony-clay;
+    color: $color-alto;
+
+    h2,
+    a {
+        color: $color-downy;
+    }
+}

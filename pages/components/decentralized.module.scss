@@ -1,0 +1,23 @@
+@import 'styles/colors.scss';
+@import 'styles/screens.scss';
+
+.github {
+    text-align: center;
+
+    p {
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    a {
+        color: $color-heavy-metal;
+    }
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.iconLink:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,1 @@
+export const concat = (element, ...arrays) => (element !== undefined ? [element] : []).concat(...arrays.filter(Array.isArray))

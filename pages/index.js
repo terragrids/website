@@ -4,6 +4,7 @@ import Splash from './components/splash'
 import Layout from './components/layout'
 import Mission from './components/mission'
 import Strategy from './components/strategy'
+import Decentralized from './components/decentralized'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Splash />
       <Mission />
       <Strategy />
+      <Decentralized />
     </Layout>
   )
 }

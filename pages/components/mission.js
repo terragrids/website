@@ -1,12 +1,11 @@
 import { strings } from '../../strings/en'
-import Section from './section'
+import LightSection from './section-light'
 
 export default function Mission() {
     return (
-        <Section>
-            <p />
+        <LightSection>
             <h2>{strings.mission}</h2>
             <p>{strings.whatIsTerragrids1}</p>
-        </Section>
+        </LightSection>
     )
 }

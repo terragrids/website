@@ -17,6 +17,7 @@
       "error",
       "never"
     ],
+    "no-console": "error",
     "react/jsx-curly-brace-presence": [
       "error",
       {
