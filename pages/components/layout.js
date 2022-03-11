@@ -8,15 +8,15 @@ export default function Layout({ children }) {
     return (
         <>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel={'icon'} href={'/favicon.ico'} />
                 <meta
-                    name="description"
+                    name={'description'}
                     content={`${strings.splashTitle}. ${strings.splashDescription}`} />
-                <meta name="og:title" content={strings.siteTitle} />
+                <meta name={'og:title'} content={strings.siteTitle} />
                 <meta
-                    property="og:image"
+                    property={'og:image'}
                     content={''} />
-                <meta name="twitter:card" content="summary_large_image" />
+                <meta name={'twitter:card'} content={'summary_large_image'} />
             </Head>
             <nav className={styles.navbar}>
                 <Logo width={240} />

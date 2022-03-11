@@ -8,7 +8,7 @@ export default function Splash() {
         <div className={styles.container}>
             <Image
                 priority
-                src="/images/splash.jpg"
+                src={'/images/splash.jpg'}
                 className={styles.splashImage}
                 layout={'fill'}
                 objectFit={'cover'}

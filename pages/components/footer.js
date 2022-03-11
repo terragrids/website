@@ -4,7 +4,7 @@ import Section from './section'
 import styles from './footer.module.scss'
 
 export default function Footer() {
-    const algorandUrl = 'https://www.algorand.com/about/sustainability';
+    const algorandUrl = 'https://www.algorand.com/about/sustainability'
     return (
         <Section classNames={[styles.container]}>
             <div className={styles.poweredBy}>
@@ -15,10 +15,10 @@ export default function Footer() {
                         target={'_blank'}
                         rel={'noreferrer'}>
                         <Image
-                            src="/images/algorand-logo-white.png"
+                            src={'/images/algorand-logo-white.png'}
                             layout={'fill'}
                             objectFit={'contain'}
-                            alt='Algorand' />
+                            alt={'Algorand'} />
                     </a>
                 </div>
             </div>
