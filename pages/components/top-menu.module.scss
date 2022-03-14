@@ -1,11 +1,15 @@
 @import 'styles/colors.scss';
 @import 'styles/screens.scss';
 
-.list {
+.horizontal {
     display: flex;
     align-items: center;
     margin-left: 30px;
     list-style: none;
+
+    @media (max-width: $screen-medium) {
+        display: none;
+    }
 
     li {
         padding: 10px;
@@ -29,8 +33,59 @@
     i {
         font-size: 28px;
     }
+}
 
-    @media (max-width: $screen-small) {
-        display: none;
+.vertical {
+    display: none;
+
+    @media (max-width: $screen-medium) {
+        display: flex;
+        flex-direction: column;
     }
+
+    .list {
+        position: fixed;
+        padding: 20px;
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background-color: $color-black;
+        list-style: none;
+        z-index: 10;
+
+        li {
+            font-size: 30px;
+            padding: 10px;
+        }
+    }
+}
+
+.icon {
+    color: $color-alto;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.toggleMenu {
+    display: none;
+    margin-left: 30px;
+
+    @media (max-width: $screen-medium) {
+        display: block;
+    }
+}
+
+.toggleClose {
+    text-align: right;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }

@@ -20,10 +20,12 @@ export default function Layout({ children }) {
                 <meta name={'twitter:card'} content={'summary_large_image'} />
             </Head>
             <header className={styles.navbar}>
-                <Logo width={240} />
-                <TopMenu />
+                <div className={styles.navContent}>
+                    <Logo width={240} />
+                    <TopMenu />
+                </div>
             </header>
-            <main>{children}</main>
+            <main className={styles.content}>{children}</main>
             <Footer />
         </>
     )
