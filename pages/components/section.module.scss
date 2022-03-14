@@ -10,6 +10,11 @@
     max-width: 1000px;
     padding: 40px 20px;
 
+    &.wide {
+        max-width: none;
+        width: 100%;
+    }
+
     h2 {
         font-family: 'Orbitron', sans-serif;
         font-size: 40px;

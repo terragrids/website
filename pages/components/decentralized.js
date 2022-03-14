@@ -5,7 +5,7 @@ import LightSection from './section-light'
 export default function Decentralized() {
     const githubUrl = 'https://github.com/terragrids'
     return (
-        <LightSection classNames={[styles.container]}>
+        <LightSection>
             <h2>{strings.decentralized}</h2>
             <p>{strings.decentralizedContent}</p>
             <div className={styles.github}>

@@ -5,6 +5,7 @@ import Layout from './components/layout'
 import Mission from './components/mission'
 import Strategy from './components/strategy'
 import Decentralized from './components/decentralized'
+import Roadmap from './components/roadmap'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Mission />
       <Strategy />
       <Decentralized />
+      <Roadmap />
     </Layout>
   )
 }
