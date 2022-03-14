@@ -6,7 +6,7 @@ export default function RoadmapBlock({ number, milestone, timeline, tasks }) {
             <h3>#{number} {milestone}</h3>
             <h4>{timeline}</h4>
             <ul>
-                {tasks.map(task => <li key={task}><i className={'icon-chevron-right-circle'} />{task}</li>)}
+                {tasks && tasks.map(task => <li key={task}><i className={'icon-chevron-right-circle'} />{task}</li>)}
             </ul>
         </div>
     )
