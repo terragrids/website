@@ -6,6 +6,7 @@ import DarkSection from './section-dark'
 export default function Roadmap() {
     return (
         <DarkSection wide>
+            <a id={'roadmap'} />
             <h2>{strings.roadmap}</h2>
             <div className={styles.content}>
                 <RoadmapBlock

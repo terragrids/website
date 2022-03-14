@@ -1,0 +1,36 @@
+@import 'styles/colors.scss';
+@import 'styles/screens.scss';
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    list-style: none;
+
+    li {
+        padding: 10px;
+    }
+
+    a {
+        color: $color-alto;
+    }
+
+    @media (hover: hover) {
+        a:hover {
+            color: $color-downy;
+            text-decoration: none;
+        }
+
+        .nohover:hover {
+            color: $color-alto;
+        }
+    }
+
+    i {
+        font-size: 28px;
+    }
+
+    @media (max-width: $screen-small) {
+        display: none;
+    }
+}

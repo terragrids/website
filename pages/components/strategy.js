@@ -1,4 +1,5 @@
 import { strings } from '../../strings/en'
+import { links } from '../../utils/links'
 import DarkSection from './section-dark'
 import TextLink from './text-link'
 
@@ -10,7 +11,7 @@ export default function Strategy() {
             <p>{strings.whatIsTerragrids3}</p>
             <TextLink
                 text={`${strings.contributeToWhitePaper} →`}
-                targetUrl={'https://docs.google.com/document/d/1OwmZQygSRglX0yo-dP-2Rm6QtfDTLabX6lHK24c4CR4/edit?usp=sharing'} />
+                targetUrl={links.whitepaper} />
             <p />
         </DarkSection>
     )

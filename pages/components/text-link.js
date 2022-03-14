@@ -1,13 +1,12 @@
+import ExternalLink from './external-link'
 import styles from './text-link.module.scss'
 
 export default function TextLink({ targetUrl, text }) {
     return (
-        <a
+        <ExternalLink
             className={styles.link}
-            href={targetUrl}
-            target={'_blank'}
-            rel={'noreferrer'}>
+            targetUrl={targetUrl}>
             {text}
-        </a>
+        </ExternalLink>
     )
 }

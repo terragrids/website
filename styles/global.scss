@@ -8,7 +8,7 @@ body {
     font-family: 'Saira', sans-serif;
     line-height: 1.6;
     font-size: 18px;
-    background-color: $color-ebony-clay;
+    background-color: $color-black;
     color: $color-alto;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: #0070f3;
+    color: $color-alto;
     text-decoration: none;
 }
 

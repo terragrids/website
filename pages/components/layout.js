@@ -3,6 +3,7 @@ import styles from './layout.module.scss'
 import Logo from '../../public/images/logo+name.svg'
 import { strings } from '../../strings/en'
 import Footer from './footer'
+import TopMenu from './top-menu'
 
 export default function Layout({ children }) {
     return (
@@ -18,9 +19,10 @@ export default function Layout({ children }) {
                     content={''} />
                 <meta name={'twitter:card'} content={'summary_large_image'} />
             </Head>
-            <nav className={styles.navbar}>
+            <header className={styles.navbar}>
                 <Logo width={240} />
-            </nav>
+                <TopMenu />
+            </header>
             <main>{children}</main>
             <Footer />
         </>
