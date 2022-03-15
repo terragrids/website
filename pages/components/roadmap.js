@@ -2,11 +2,12 @@ import { strings } from '../../strings/en'
 import styles from './roadmap.module.scss'
 import RoadmapBlock from './roadmap-block'
 import DarkSection from './section-dark'
+import Anchor from './anchor'
 
 export default function Roadmap() {
     return (
         <DarkSection wide>
-            <a id={'roadmap'} />
+            <Anchor id={'roadmap'} />
             <h2>{strings.roadmap}</h2>
             <div className={styles.content}>
                 <RoadmapBlock

@@ -4,6 +4,7 @@ import { links } from '../../utils/links'
 import ExternalLink from './external-link'
 import Logo from '../../public/images/logo+name.svg'
 import styles from './top-menu.module.scss'
+import { Link as SmoothScrollLink } from 'react-scroll'
 
 export default function TopMenu() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -19,8 +20,8 @@ export default function TopMenu() {
     function getMenuItems() {
         return (
             <>
-                <li><a href={'#mission'}>{strings.mission}</a></li>
-                <li><a href={'#roadmap'}>{strings.roadmap}</a></li>
+                <li><SmoothScrollLink to={'mission'} smooth onClick={closeToggleMenu}>{strings.mission}</SmoothScrollLink></li>
+                <li><SmoothScrollLink to={'roadmap'} smooth onClick={closeToggleMenu}>{strings.roadmap}</SmoothScrollLink></li>
                 <li><ExternalLink targetUrl={links.whitepaper}>{strings.whitepaper}</ExternalLink></li>
                 <li><ExternalLink className={styles.nohover} targetUrl={links.github}><i className={'icon-github'} /></ExternalLink></li>
             </>
@@ -36,7 +37,7 @@ export default function TopMenu() {
                 <div className={`${styles.toggleMenu} ${styles.icon} icon-menu ${menuOpen ? styles.hidden : styles.visible}`} onClick={openToggleMenu} />
                 <div className={`${styles.list} ${menuOpen ? styles.visible : styles.hidden}`}>
                     <div className={`${styles.toggleClose} ${styles.icon} icon-cross ${menuOpen ? styles.visible : styles.hidden}`} onClick={closeToggleMenu} />
-                    <ul onClick={closeToggleMenu}>
+                    <ul>
                         {getMenuItems()}
                     </ul>
                     <div className={styles.logo}>

@@ -27,6 +27,7 @@
 
 .logo {
     width: 240px;
+    cursor: pointer;
 
     @media (max-width: $screen-small) {
         width: 150px;

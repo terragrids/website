@@ -4,6 +4,7 @@ import Logo from '../../public/images/logo+name.svg'
 import { strings } from '../../strings/en'
 import Footer from './footer'
 import TopMenu from './top-menu'
+import { Link as SmoothScrollLink } from 'react-scroll'
 
 export default function Layout({ children }) {
     return (
@@ -21,10 +22,13 @@ export default function Layout({ children }) {
             </Head>
             <header className={styles.navbar}>
                 <div className={styles.navContent}>
-                    <Logo className={styles.logo} />
+                    <SmoothScrollLink to={'top'} smooth>
+                        <Logo className={styles.logo} />
+                    </SmoothScrollLink>
                     <TopMenu />
                 </div>
             </header>
+            <a id={'top'} />
             <main className={styles.content}>{children}</main>
             <Footer />
         </>
