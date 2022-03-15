@@ -1,5 +1,6 @@
 @import 'styles/colors.scss';
 @import 'styles/screens.scss';
+@import 'styles/dimens.scss';
 
 .horizontal {
     display: flex;
@@ -46,40 +47,74 @@
     .list {
         position: fixed;
         padding: 20px;
-        top: 100px;
+        top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         overflow-x: hidden;
         overflow-y: scroll;
         background-color: $color-black;
-        list-style: none;
-        z-index: 10;
+        text-align: center;
+        z-index: $z-index-top-menu;
+
+        ul {
+            padding-top: 30px;
+            list-style: none;
+        }
 
         li {
             font-size: 30px;
             padding: 10px;
         }
     }
+
+    .logo {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        text-align: center;
+        background-color: $color-black;
+        opacity: 0.9;
+
+        & > * {
+            width: 150px;
+
+            @media (max-width: $screen-small) {
+                width: 100px;
+            }
+        }
+    }
 }
 
 .icon {
     color: $color-alto;
-    font-size: 45px;
     font-weight: bold;
 }
 
 .toggleMenu {
     display: none;
     margin-left: 30px;
+    font-size: 45px;
 
     @media (max-width: $screen-medium) {
         display: block;
     }
+
+    @media (max-width: $screen-small) {
+        font-size: 35px;
+    }
 }
 
 .toggleClose {
-    text-align: right;
+    position: fixed;
+    right: 20px;
+    font-size: 35px;
+
+    @media (max-width: $screen-small) {
+        font-size: 30px;
+    }
 }
 
 .visible {

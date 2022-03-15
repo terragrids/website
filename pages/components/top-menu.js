@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { strings } from '../../strings/en'
 import { links } from '../../utils/links'
 import ExternalLink from './external-link'
+import Logo from '../../public/images/logo+name.svg'
 import styles from './top-menu.module.scss'
 
 export default function TopMenu() {
@@ -33,10 +34,15 @@ export default function TopMenu() {
             </ul>
             <div className={styles.vertical}>
                 <div className={`${styles.toggleMenu} ${styles.icon} icon-menu ${menuOpen ? styles.hidden : styles.visible}`} onClick={openToggleMenu} />
-                <div className={`${styles.toggleClose} ${styles.icon} icon-cross ${menuOpen ? styles.visible : styles.hidden}`} onClick={closeToggleMenu} />
-                <ul className={`${styles.list} ${menuOpen ? styles.visible : styles.hidden}`} onClick={closeToggleMenu}>
-                    {getMenuItems()}
-                </ul>
+                <div className={`${styles.list} ${menuOpen ? styles.visible : styles.hidden}`}>
+                    <div className={`${styles.toggleClose} ${styles.icon} icon-cross ${menuOpen ? styles.visible : styles.hidden}`} onClick={closeToggleMenu} />
+                    <ul onClick={closeToggleMenu}>
+                        {getMenuItems()}
+                    </ul>
+                    <div className={styles.logo}>
+                        <Logo />
+                    </div>
+                </div>
             </div>
         </nav>
     )

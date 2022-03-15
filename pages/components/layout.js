@@ -21,7 +21,7 @@ export default function Layout({ children }) {
             </Head>
             <header className={styles.navbar}>
                 <div className={styles.navContent}>
-                    <Logo width={240} />
+                    <Logo className={styles.logo} />
                     <TopMenu />
                 </div>
             </header>

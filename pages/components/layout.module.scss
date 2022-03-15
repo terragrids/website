@@ -1,11 +1,12 @@
 @import 'styles/colors.scss';
 @import 'styles/screens.scss';
+@import 'styles/dimens.scss';
 
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 11;
+    z-index: $z-index-navbar;
     opacity: 0.9;
     padding: 15px 0;
     background-color: $color-black;
@@ -16,7 +17,7 @@
 }
 
 .navContent {
-    max-width: 1000px;
+    max-width: $main-content-width;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -24,7 +25,19 @@
     color: $color-alto;
 }
 
+.logo {
+    width: 240px;
+
+    @media (max-width: $screen-small) {
+        width: 150px;
+    }
+}
+
 .content {
     position: relative;
-    top: 100px;
+    padding-top: 100px;
+
+    @media (max-width: $screen-small) {
+        padding-top: 50px;
+    }
 }
