@@ -33,6 +33,7 @@
     }
 
     i {
+        display: block;
         font-size: 28px;
     }
 }
@@ -47,7 +48,7 @@
 
     .list {
         position: fixed;
-        padding: 20px;
+        padding: 20px 20px 80px;
         top: 0;
         left: 0;
         right: 0;
