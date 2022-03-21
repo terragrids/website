@@ -8,7 +8,7 @@ import { Link as SmoothScrollLink } from 'react-scroll'
 
 export default function Layout({ children }) {
     const siteUrl = 'https://www.terragrids.org'
-    const siteImage = 'https://terragrids.org/images/logo+name.png'
+    const siteImage = 'https://images.terragrids.org/logo-full.png'
 
     return (
         <>
