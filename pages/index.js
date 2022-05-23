@@ -7,6 +7,7 @@ import Strategy from './components/strategy'
 import Decentralized from './components/decentralized'
 import Roadmap from './components/roadmap'
 import Governance from './components/Governance'
+import Team from './components/team'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Decentralized />
       <Governance />
       <Roadmap />
+      <Team />
     </Layout>
   )
 }

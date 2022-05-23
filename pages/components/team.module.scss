@@ -1,0 +1,11 @@
+@import 'styles/colors.scss';
+@import 'styles/screens.scss';
+
+.content {
+    display: flex;
+
+    @media (max-width: $screen-medium) {
+        flex-direction: column;
+        margin: 0 0 15px;
+    }
+}

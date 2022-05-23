@@ -1,0 +1,57 @@
+@import 'styles/colors.scss';
+@import 'styles/screens.scss';
+
+.container {
+    position: relative;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 60px;
+    margin: 0 10px 15px;
+    background-color: $color-ebony-clay;
+    border: 3px solid transparent;
+    border-radius: 10px;
+
+    @media (hover: hover) {
+        &:hover {
+            border: 3px solid $color-brand;
+        }
+    }
+
+    @media (max-width: $screen-medium) {
+        margin: 0 0 15px;
+    }
+
+    h3 {
+        font-family: 'Orbitron', sans-serif;
+        color: $color-brand;
+        margin-bottom: 5px;
+    }
+
+    h4 {
+        color: $color-alto;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        width: 100%;
+        color: $color-alto;
+        font-size: 16px;
+        margin: 10px 0;
+        overflow-wrap: break-word;
+    }
+
+    footer {
+        position: absolute;
+        padding: 20px;
+        bottom: 0;
+    }
+}
