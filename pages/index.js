@@ -6,8 +6,8 @@ import Mission from './components/mission'
 import Strategy from './components/strategy'
 import Decentralized from './components/decentralized'
 import Roadmap from './components/roadmap'
-import Governance from './components/Governance'
 import Team from './components/team'
+import Governance from './components/governance'
 
 export default function Home() {
   return (
