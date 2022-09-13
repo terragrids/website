@@ -24,18 +24,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-discord:before {
+  content: "\e902";
+}
 .icon-twitter:before {
-  content: '\e901';
+  content: "\e901";
 }
 .icon-github:before {
-  content: '\e900';
+  content: "\e900";
+}
+.icon-copy:before {
+  content: "\e6b8";
 }
 .icon-menu:before {
-  content: '\e92b';
+  content: "\e92b";
+}
+.icon-check:before {
+  content: "\e934";
 }
 .icon-cross:before {
-  content: '\e935';
+  content: "\e935";
 }
 .icon-chevron-right-circle:before {
-  content: '\e965';
+  content: "\e965";
 }

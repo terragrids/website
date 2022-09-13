@@ -29,12 +29,9 @@ export default function Roadmap() {
                     milestone={strings.current}
                     timeline={'Q3 / 2022'}
                     tasks={[
-                        strings.startedCollaboration,
                         strings.webappPrototype,
-                        strings.legalAdvice,
                         strings.draftTokenomics,
-                        strings.kickstartFunding,
-                        strings.mediumFirstPost,
+                        strings.algorandGreenhouseRound1Completed,
                         strings.team2
                     ]} />
                 <RoadmapBlock
@@ -42,12 +39,13 @@ export default function Roadmap() {
                     milestone={strings.wire}
                     timeline={'Q4 / 2022'}
                     tasks={[
-                        strings.nonProfitSetup,
-                        strings.kickstartFunding,
+                        strings.companySetup,
+                        strings.kickstartLaunched,
                         strings.tokenomicsFinal,
-                        strings.website1_0,
+                        strings.website2_0,
                         strings.tokenPresale,
                         strings.webAppV1,
+                        strings.mediumFirstPost,
                         strings.team3
                     ]} />
                 <RoadmapBlock
@@ -56,9 +54,8 @@ export default function Roadmap() {
                     timeline={'H1 / 2023'}
                     tasks={[
                         strings.tokenPublicSale,
-                        strings.pilotSite,
-                        strings.pilotDesign,
-                        strings.installerSelectionStarted,
+                        strings.pilotProject,
+                        strings.newNFTs,
                         strings.webAppV2
                     ]} />
                 <RoadmapBlock
@@ -67,11 +64,11 @@ export default function Roadmap() {
                     timeline={'H2 / 2023'}
                     tasks={[
                         strings.pilotDone,
+                        strings.newCreatorsProjects,
                         strings.webAppV3,
                         strings.newNFTs,
                         strings.governanceDefined,
-                        strings.idoAllocation,
-                        strings.newHomesSolarSystems
+                        strings.idoAllocation
                     ]} />
             </div>
         </DarkSection>

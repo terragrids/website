@@ -25,6 +25,7 @@ export default function TopMenu() {
                 <li><ExternalLink targetUrl={links.whitepaper}>{strings.whitepaper}</ExternalLink></li>
                 <li><ExternalLink className={styles.nohover} targetUrl={links.github}><i className={'icon-github'} /></ExternalLink></li>
                 <li><ExternalLink className={styles.nohover} targetUrl={links.twitter}><i className={'icon-twitter'} /></ExternalLink></li>
+                <li><ExternalLink className={styles.nohover} targetUrl={links.discord}><i className={'icon-discord'} /></ExternalLink></li>
             </>
         )
     }
