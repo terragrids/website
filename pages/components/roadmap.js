@@ -43,7 +43,6 @@ export default function Roadmap() {
                         strings.kickstartLaunched,
                         strings.tokenomicsFinal,
                         strings.website2_0,
-                        strings.tokenPresale,
                         strings.webAppV1,
                         strings.mediumFirstPost,
                         strings.team3
@@ -53,7 +52,6 @@ export default function Roadmap() {
                     milestone={strings.circuit}
                     timeline={'H1 / 2023'}
                     tasks={[
-                        strings.tokenPublicSale,
                         strings.pilotProject,
                         strings.newNFTs,
                         strings.webAppV2
@@ -68,7 +66,8 @@ export default function Roadmap() {
                         strings.webAppV3,
                         strings.newNFTs,
                         strings.governanceDefined,
-                        strings.idoAllocation
+                        strings.idoAllocation,
+                        strings.launchOnMainnet
                     ]} />
             </div>
         </DarkSection>
