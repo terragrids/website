@@ -3,40 +3,62 @@
 
 .container {
     position: relative;
-    background-color: $color-ebony-clay;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: $color-mine-shaft;
     height: 500px;
+}
+
+.splashImage {
+    position: relative;
+    width: 60%;
+    max-width: 1000px;
+    height: 100%;
 
     @media (max-width: $screen-small) {
-        height: 460px;
+        width: 100%;
     }
 }
 
 .text {
-    position: absolute;
     width: 100%;
-    padding: 40px 20px;
+    padding: 40px 20px 0;
     text-align: center;
 
     h1 {
         font-family: 'Orbitron', sans-serif;
-        font-size: 50px;
+        font-size: 40px;
+
+        @media (max-width: $screen-medium) {
+            font-size: 35px;
+        }
 
         @media (max-width: $screen-small) {
-            font-size: 40px;
+            font-size: 30px;
         }
 
         @media (max-width: $screen-xsmall) {
-            font-size: 30px;
+            font-size: 20px;
         }
     }
 
     h2 {
-        padding: 20px 0;
-        font-size: 40px;
+        padding: 10px 0;
+        font-size: 30px;
         color: $color-downy;
 
+        @media (max-width: $screen-medium) {
+            font-size: 25px;
+        }
+
         @media (max-width: $screen-small) {
-            font-size: 30px;
+            font-size: 20px;
+        }
+
+        @media (max-width: $screen-xsmall) {
+            font-size: 18px;
         }
     }
 }

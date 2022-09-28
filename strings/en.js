@@ -38,7 +38,7 @@ export const strings = {
     siteTitle: 'Terragrids',
     socialCommunities: 'Communities on Discord, Twitter and GitHub set up',
     splashDescription: 'Energy for everyone. Built on the blockchain.',
-    splashTitle: 'Create a fair, decentralized\ power grid',
+    splashTitle: 'Crowdfunding for renewable energy projects',
     team: 'The team',
     team1: 'Team inception',
     team2: 'Team growth (software developers, blockchain advisor)',
