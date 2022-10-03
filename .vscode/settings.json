@@ -1,0 +1,23 @@
+{
+    "cSpell.enableFiletypes": ["!css", "!javascriptreact", "!json", "!scss", "!yaml", "!yml", "javascript", "markdown"],
+    "cSpell.language": "en,en-GB,en-US",
+    "javascript.suggest.completeFunctionCalls": true,
+    "cSpell.words": [
+        "Algorand",
+        "Ipfs",
+        "noreferrer",
+        "Terrabuild",
+        "Terracell",
+        "terracells",
+        "Terragrids",
+        "Terraland",
+        "Terrasset",
+        "TRBD",
+        "TRCL",
+        "TRLD"
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

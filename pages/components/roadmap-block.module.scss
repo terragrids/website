@@ -1,5 +1,6 @@
 @import 'styles/colors.scss';
 @import 'styles/screens.scss';
+@import 'styles/dimens.scss';
 
 .container {
     flex: 1 0 0;
@@ -7,7 +8,7 @@
     margin: 0 10px 15px;
     background-color: $color-nomad;
     border: 3px solid transparent;
-    border-radius: 10px;
+    border-radius: $border-radius;
 
     @media (hover: hover) {
         &:hover {
