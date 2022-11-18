@@ -11,9 +11,7 @@ export default function Strategy() {
             <p>{strings.whatIsTerragrids3}</p>
             <p>{strings.whatIsTerragrids4}</p>
             <p>{strings.whatIsTerragrids5}</p>
-            <TextLink
-                text={`${strings.contributeToWhitePaper} →`}
-                targetUrl={links.whitepaper} />
+            <TextLink text={`${strings.contributeToWhitePaper} →`} targetUrl={links.whitepaper} />
             <p />
         </DarkSection>
     )

@@ -1,0 +1,16 @@
+@import 'styles/colors.scss';
+@import 'styles/screens.scss';
+
+.ecosystemImage {
+    position: relative;
+    height: 500px;
+    margin-bottom: 20px;
+
+    @media (max-width: $screen-midi) {
+        height: 350px;
+    }
+
+    @media (max-width: $screen-small) {
+        height: 200px;
+    }
+}
