@@ -16,8 +16,9 @@ export default function Strategy() {
 
             <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                 <iframe
+                    sandbox={'allow-scripts'}
                     src={
-                        'https://player.vimeo.com/video/772409370?h=44c17b75dd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+                        'https://player.vimeo.com/video/772409370?dnt=1&amp;h=44c17b75dd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
                     }
                     frameBorder={'0'}
                     allow={'autoplay; fullscreen; picture-in-picture'}
