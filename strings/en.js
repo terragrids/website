@@ -52,13 +52,13 @@ export const strings = {
     whatIsTerragrids1:
         'Terragrids is a web3 decentralised energy tracking platform for smart homes, built to empower individuals to take back ownership of what nature gives them for free: energy.',
     whatIsTerragrids2:
-        'Terragrids runs a virtual world, where home owners are allocated part of the estate, and given a token on the blockchain to uniquely identify their place.',
+        'Terragrids runs a virtual world, where homeowners are allocated part of the estate, and given a token on the blockchain to uniquely identify their place.',
     whatIsTerragrids3:
-        'Home owners can develop their place adding trackers which monitor the energy balance of their smart home: consumption, renewable generation, electric vehicles, heat pump performance, etc.',
+        'Homeowners can develop their place adding trackers which monitor the energy balance of their smart home: consumption, renewable generation, electric vehicles, heat pump performance, etc.',
     whatIsTerragrids4:
         'All data flows coming from the trackers are saved using unique, tamper-proof transactions on the fastest and greenest blockchain: Algorand.',
     whatIsTerragrids5:
-        'Home owners will be able to share this data as proof of quality for their smart home and integrate with the energy network of the future.',
+        'Homeowners will be able to share this data as proof of quality for their smart home and integrate with the energy network of the future.',
     whitepaper: 'Whitepaper',
     wire: 'Wire'
 }
