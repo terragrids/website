@@ -9,7 +9,8 @@ export default function Splash() {
         <header className={styles.container}>
             <div className={styles.text}>
                 <h1>
-                    <ParagraphMaker text={strings.splashTitle} />
+                    <ParagraphMaker text={strings.splashTitle1} />
+                    <ParagraphMaker text={strings.splashTitle2} />
                 </h1>
                 <h2>{strings.splashDescription}</h2>
             </div>

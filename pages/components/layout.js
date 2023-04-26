@@ -15,19 +15,19 @@ export default function Layout({ children }) {
             <Head>
                 <link rel={'icon'} href={'/favicon.ico'} />
 
-                <meta name={'description'} content={`${strings.splashTitle}. ${strings.splashDescription}`} />
+                <meta name={'description'} content={`${strings.splashTitle1}. ${strings.splashDescription}`} />
 
                 <meta property={'og:url'} content={siteUrl} />
                 <meta property={'og:type'} content={'website'} />
                 <meta property={'og:title'} content={strings.siteTitle} />
-                <meta property={'og:description'} content={`${strings.splashTitle}. ${strings.splashDescription}`} />
+                <meta property={'og:description'} content={`${strings.splashTitle1}. ${strings.splashDescription}`} />
                 <meta property={'og:image'} content={siteImage} />
 
                 <meta name={'twitter:card'} content={'summary_large_image'} />
                 <meta property={'twitter:domain'} content={'terragrids.org'} />
                 <meta property={'twitter:url'} content={siteUrl} />
                 <meta name={'twitter:title'} content={strings.siteTitle} />
-                <meta name={'twitter:description'} content={`${strings.splashTitle}. ${strings.splashDescription}`} />
+                <meta name={'twitter:description'} content={`${strings.splashTitle1}. ${strings.splashDescription}`} />
                 <meta name={'twitter:image'} content={siteImage} />
             </Head>
 

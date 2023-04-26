@@ -19,14 +19,14 @@ export default function Team() {
                     imageUrl={'/images/avatar.lorenzo.png'}
                     imageAlt={lorenzo}
                     bio={strings.lorenzoBio}
-                    linkedInUrl={'https://www.linkedin.com/in/lorenzopolidori'} />
+                />
                 <TeamMember
                     name={irene}
                     role={strings.founderDesign}
                     imageUrl={'/images/avatar.irene.png'}
                     imageAlt={irene}
                     bio={strings.ireneBio}
-                    linkedInUrl={'https://www.linkedin.com/in/irenesilvino'} />
+                />
             </div>
         </LightSection>
     )

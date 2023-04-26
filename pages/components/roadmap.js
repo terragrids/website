@@ -32,8 +32,7 @@ export default function Roadmap() {
                     tasks={[
                         strings.webappPrototype,
                         strings.draftTokenomics,
-                        strings.algorandGreenhouseRound1Completed,
-                        strings.team2
+                        strings.algorandGreenhouseRound1Completed
                     ]}
                 />
                 <RoadmapBlock
@@ -41,27 +40,25 @@ export default function Roadmap() {
                     milestone={strings.wire}
                     timeline={'Q4 / 2022'}
                     tasks={[
-                        strings.tokenomicsFinal,
                         'Algorand Greenhouse Hack #2',
                         'Project Smart Contract',
                         'Pera Wallet',
                         'Authentication',
                         'NFT / Project linking',
-                        'Decipher',
-                        'Pre-seed'
+                        'Decipher'
                     ]}
                 />
                 <RoadmapBlock
                     number={4}
                     milestone={strings.circuit}
                     timeline={'H1 / 2023'}
-                    tasks={['Full MVP on Testnet', '2+ Crowdfund projects on Testnet', 'More NFTs', 'x3 team growth']}
+                    tasks={['Full MVP on Testnet', '1 smart home on Testnet', 'More NFTs']}
                 />
                 <RoadmapBlock
                     number={5}
                     milestone={strings.grid}
                     timeline={'H2 / 2023'}
-                    tasks={['Launch on Mainnet', '10+ Crowdfund Projects', '100+ Crowdfund backers']}
+                    tasks={['Launch on Mainnet', '5+ smart homes']}
                 />
             </div>
         </DarkSection>
